@@ -1,0 +1,10 @@
+function PositivoNegativo(N) {
+if(N==0)return "zero"
+	return Number(N)>0?"Positivo":"Negativo"
+
+}
+console.log(PositivoNegativo(5));
+console.log(PositivoNegativo(-3));
+console.log(PositivoNegativo(0));
+console.log(PositivoNegativo("1110"));
+console.log(PositivoNegativo("-987654321"));

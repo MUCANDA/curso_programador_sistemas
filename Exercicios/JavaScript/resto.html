@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>6. Divisão de dois números inteiros </title>
+</head>
+<body>
+	<p>
+		<cite>6. Escreva um programa que retorne o resultado da divisão inteira entre dois números inteiros.
+.</cite>>
+	</p>
+	<hr>
+
+</body>
+</html>
+<script type="text/javascript">
+var n1, n2, resposta, resto, mensagem;
+
+n1 = Number(prompt("primeiro número:"));
+n2 = Number(prompt("segundo número:"));
+
+resto = n1 % n2;
+resposta = (n1- resto) / n2;
+
+mensagem = ` o produto de ${n1} é ${n2} tem a divisão inteira de $(resposta),`;
+document.write(mensagem);
+</script>

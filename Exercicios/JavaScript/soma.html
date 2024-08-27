@@ -1,0 +1,35 @@
+<html>
+<head>
+	
+<script type="text/javascript" src="lib/soma.js"> 
+
+
+</script>
+Depois:
+<!-- Arquivo 03_soma.html -->
+</head>
+<body> 
+<h1> SOMA DE DOIS NÚMEROS</h1>
+<p>
+	<cite>2. Solicite ao usuário que digite os dois números
+	</cite>
+</p>
+<hr>
+</body>
+
+
+<script>
+var a, b, resposta, tipo,  mensagem;
+a = Number(prompt("Digite o primeiro número:")); 
+ b = Number(prompt("Digite o segundo número:")); 
+ 
+  resposta= soma (a, b); 
+
+  mensagem= ` A soma de ${a} e ${b} e igual <b> ${resposta}</b>.`
+ 
+
+
+
+document.write(mensagem);
+</script>
+</html>

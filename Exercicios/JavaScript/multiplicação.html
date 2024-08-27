@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="lib/multiplicação.js"></script>
+</head>
+</head>
+<body>
+	<h1>4.Multiplicação de dois números</h1>
+	<p>
+		<cite>4. Escreva um programa que solicita dois números e imprime o resultado da multiplicação entre os
+números.</cite>
+	</p>
+	<hr>
+</body>
+</html>
+<script type="text/javascript">		
+//Declaraçao de variáveis
+var entrada, a, b, multiplicar, tipo, mensagem;
+
+//Entrada de dados
+entrada = prompt("Digitar o valo A:");
+a = Number(entrada);
+entrada = prompt("Digitar o valo B:");
+b = Number(entrada);
+
+//Processamneto de dados
+produto = mult(a, b);
+mensagem = ` Oproduto de ${a} e ${b} é igual a <b> ${produto} </b>.`
+
+//saida de entrada
+document.write(mensagem);
+</script>
