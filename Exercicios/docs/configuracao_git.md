@@ -123,3 +123,4 @@
 - [Documentação Oficial do Git](https://git-scm.com/doc)
 - [GitHub - Guia de Início Rápido](https://docs.github.com/en/get-started/quickstart)
 - [Pro Git Book](https://git-scm.com/book/en/v2) - Livro gratuito sobre Git
+- [Artigo git commit](https://www.atlassian.com/br/git/tutorials/saving-changes/git-commit)
