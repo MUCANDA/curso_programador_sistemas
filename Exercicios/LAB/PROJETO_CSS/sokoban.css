@@ -23,14 +23,15 @@ main {
 
 .tabela {
     display: block;
-    min-width: 256px;
-    min-height: 256px;
+    min-width: min(3vh, 2vw);
+    min-height: min(3vh, 2vw);
     border: 8px solid #505050;
     padding: 2px 3px;
     background-color: gray;
     border-radius: 8px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.31);
     margin: 24px;
+  
 }
 
 .linha {
@@ -42,8 +43,8 @@ main {
 }
 
 .celula {
-    height: 64px;
-    width: 64px;
+    height: min(5vw, 5vh);
+    width: min(5vw, 5vh);
     margin: 0 1px;
     border-radius: 2px;
     background-color: aliceblue;
@@ -51,6 +52,6 @@ main {
 }
 
 .vazio {
-    background-color: unset;
+    background-color: #e8acac;
     box-shadow: none;
 }

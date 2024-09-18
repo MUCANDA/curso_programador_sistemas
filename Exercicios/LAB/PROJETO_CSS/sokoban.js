@@ -38,16 +38,15 @@ function buildGameBoard(numRows, numCols, drawrule) {
 
 
 
-            //        if(i == 0 || i==N-1|| k==0 || k==M-1) {
-            //  celula.classList.add('vazio');
-
-            // if (i > 0 && i < 7 && k > 0 && k < 7) {
+            // if (i == 0 || i == N - 1 || k == 0 || k == M - 1) {
             //     celula.classList.add('vazio');
 
-        }
-    }
-    game.append(board);
+            //     if (i > 0 && i < 7 && k > 0 && k < 7) {
+            //         celula.classList.add('vazio');
 
+                }
+            }
+    game.append(board);
 }
 
 function rule1(celula, numRows, numCols, k, i) {
@@ -57,7 +56,7 @@ function rule1(celula, numRows, numCols, k, i) {
 }
 function rule2(celula, numRows, numCols, k, i) {
 
-    if (k > 0 && i < numRows - 1 && k > 0 && k < numCols - 1) {
+    if (k > 0 && k < numRows - 1 && i > 0 && i < numCols - 1) {
         celula.classList.add('vazio')
     }
 }
