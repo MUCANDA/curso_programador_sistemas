@@ -1,5 +1,5 @@
-let x;
-let y;
+let x=3;
+let y=4;
 
 
 const vazio = document.querySelector('.vazio');
@@ -10,9 +10,16 @@ vazio.addEventListener("click" , function() {
 })
 
 window.addEventListener("keydown", function(event){
-    this.window.alert("pressionou tecla");
+    // this.window.alert("pressionou tecla");
+
     console.log(event);
+    console.log(event.code);
 
 
-    // if()
-})
+    if(event.code == "ArrowUp") x--;
+    if(event.code == "ArrowDown") x++;
+     if(event.code == "ArrowLeft") y++;
+     if(event.code == "ArrowrRight") y--;
+       
+     
+ })
