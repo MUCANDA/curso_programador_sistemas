@@ -8,7 +8,7 @@ function Player (posx,posy) {
    
 }
    
-const player = new Player(3, 4);   
+const player = new Player(0, 0);   
    
 console.log(player);  
 
@@ -28,7 +28,8 @@ console.log(vazio);
     // console.log(event.code);
 
  })
-
+ const celulas = document.querySelectorAll('.celula');
+  console.log(celulas);
  function nextPosition(keycode) {
     if(keycode == "ArrowUp") player.x--;
     if (keycode== "ArrowDown") player.x++;
@@ -37,4 +38,9 @@ console.log(vazio);
 
      console.log(keycode, player);
 
+     const k = player.x * 8 + player.y;
+
+celulas[k].append(vazio);
  }
+
+ 
