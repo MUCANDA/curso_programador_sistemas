@@ -11,15 +11,26 @@ vazio.addEventListener("click" , function() {
 
 window.addEventListener("keydown", function(event){
     // this.window.alert("pressionou tecla");
+    nextPosition(event.code);
 
     console.log(event);
     console.log(event.code);
 
 
-    if(event.code == "ArrowUp") x--;
-    if(event.code == "ArrowDown") x++;
-     if(event.code == "ArrowLeft") y++;
-     if(event.code == "ArrowrRight") y--;
+   
        
      
  })
+ function nextPosition(keycode) {
+    if(keycode == "ArrowUp") x--;
+    if (keycode== "ArrowDown") x++;
+     if(keycode == "ArrowLeft") y++;
+     if(keycode == "ArrowrRight") y--;
+
+     console.log(keycode, x, y);
+
+ }
+
+
+ 
+
