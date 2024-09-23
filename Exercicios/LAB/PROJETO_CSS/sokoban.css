@@ -1,6 +1,7 @@
 body {
     height: 100vh;
     margin: 0;
+
 }
 
 main {
@@ -22,6 +23,8 @@ main {
 }
 
 .tabela {
+    position: relative;
+
     display: block;
     min-width: 256px;
     min-height: 256px;
@@ -31,6 +34,7 @@ main {
     border-radius: 6px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.31);
     margin: 24px;
+
   
 }
 
@@ -38,7 +42,7 @@ main {
     display: flex;
     flex-direction: row;
     height: auto;
-    padding: 2px 0;
+    margin: 2px 0;
 
 }
 
@@ -60,10 +64,15 @@ main {
 }
 
 .jogador {
+    box-sizing: border-box;
+   position: absolute;
+   top:0;
+   left: 0;
     background-color: #59d102;
     height: 60px;
     border-radius: 100%;
     border: 3px solid blue;
-
+    width: 60px;
+    
 }
 
