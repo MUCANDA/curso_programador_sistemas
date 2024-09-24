@@ -13,6 +13,7 @@ const MARGIN_FIX = 4;
 
 
 
+
  playerElement.style.top = calculaPosicao(0);
  playerElement.style.left =  calculaPosicao(0);
 
